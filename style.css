@@ -1,0 +1,506 @@
+*{
+    margin: 0 ;
+    padding: 0;
+   font-family: sans-serif;
+}
+#hero-one{
+    height: 100vh;
+    background: url(./img/main8.jpg)no-repeat center center/cover fixed;
+}
+
+#hero-one #overlay{
+    height: 100vh;
+    background: rgba(0, 0, 0,.5);
+}
+#hero-one #overlay nav
+{
+    height: 15vh;
+    position: fixed;
+    width: 100%;
+}
+#hero-one #overlay nav #links{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#hero-one #overlay nav #links .logo {
+    width: 20%;
+}
+#hero-one #overlay nav #links .pages {
+    width: 55%;
+}
+#hero-one #overlay nav #links .btn{
+    width: 15%;
+}
+#hero-one #overlay nav #links .logo img{
+    width: 160px;
+    cursor: pointer;
+}
+nav #links .pages i{
+    color: white;
+    font-size: 21px;
+    transition: .2s ease;
+
+}
+nav #links .pages i:hover{
+    color: #ff214f;
+    cursor: pointer;
+
+}
+#hero-one #overlay nav #links .pages a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(246, 245, 245);
+    font-weight: 700;
+    padding: 18px;
+    transition: .3s ease;
+}
+#hero-one #overlay nav #links .pages a:hover{
+    color: rgb(183, 181, 181);
+}
+#links .btn button
+{
+    padding: 7px 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: white;
+    transition: .2s ease;
+    color: rgba(0, 0, 0,.7);
+    background: white;
+}
+#links .btn button:hover{
+    border: solid;
+    background: transparent;
+    border-width: 1px;
+    color: white;
+}
+#hero-info{
+    height: 65vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hero-info h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130px;
+    color: white;
+    width: 60vw;
+    text-align: center;
+    line-height: 120px;
+}
+#hero-info p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    margin: 30px;
+    color: rgb(205, 205, 205);
+}
+#hero-info a button:hover{
+    border: 2px solid #ff214f;
+    cursor: pointer;
+    background: none;
+    color: #ff214f;
+}
+#hero-info a button
+{
+padding: 15px 30px;
+transition: .3s ease;
+border: none;
+border-radius: 50px;
+margin-top: 10px;
+background: #ff214f;
+color: #ffffff;
+font-size: 15px;
+letter-spacing: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+}
+#hero-info .scroll-down{
+    background: #148ab5;
+    text-align: center;
+    padding: 19px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 50px;
+}
+#hero-two{
+    width: 100%;
+    padding-top: 60px;
+
+}
+#hero-two #second{
+    width: 80%;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#hero-two #second .one-column
+#hero-two #second .sec-column
+#hero-two #second .third-column
+{
+    width: 20%;
+    margin-left: 20px;
+}
+#hero-two #second .one-column .column-info
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+#hero-two #second .one-column .column-info h3{
+    color: rgb(245, 24, 24);
+    font-size: 16px;
+}
+#second .one-column .column-info h1{
+    font-size: 63px;
+    padding-top: 18px;
+    width: 100%;
+}
+#hero-two #second .one-column .column-info p{
+    font-size: 17px;
+    width: 70%;
+    color: rgb(176, 175, 175);
+    line-height: 27px;
+    padding: 12px 12px 12px 0;
+}
+#hero-two #second .one-column .column-info button{
+    padding: 15px 35px;
+    background: #148ab5;
+    color: white;
+    border-radius: 30px;
+    border: #148ab5;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+    transition: .2s ease;
+    margin-top: 37px;
+}
+#hero-two #second .one-column .column-info button:hover{
+    color: rgb(91, 87, 87);
+    
+}
+.sec-column{
+    margin-right:20px ;
+}
+
+.sec-column .pink
+{
+height: 50vh;
+background:#ff5c75;
+display: flex;
+flex-direction: column;
+margin: 20px 10px;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+padding: 30px;
+
+}
+.sec-column .pink i{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 40px;
+}
+.sec-column .pink h2{
+    color: rgb(49, 47, 47);
+    font-size: 22px;
+    padding-bottom:15px ;
+    width: 85%;
+    text-align: center;
+}
+
+.sec-column .pink p{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.sec-column .blue
+{
+height: 50vh;
+background: #337ab7;
+display: flex;
+flex-direction: column;
+margin: 20px 10px;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+padding: 20px;
+
+}
+.sec-column .blue i{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 40px;
+}
+.sec-column .blue h2{
+    color: rgb(49,47 ,47);
+    font-size: 22px;
+    padding-bottom:15px ;
+    width: 75%;
+    text-align: center;
+}
+
+.sec-column .blue p{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.third-column{
+    margin-top: 160px;
+    margin-left: 20px;
+}
+.third-column .green
+{
+height: 50vh;
+width: 70%;
+background: #43d39e;
+display: flex;
+flex-direction: column;
+margin: 20px 10px;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+padding: 20px;
+
+}
+.third-column .green i{
+    font-size: 50px;
+    color: white;
+    padding: 40px 0;
+}
+.third-column .green h2{
+    color: rgb(49, 47, 47);
+    font-size: 22px;
+    padding-bottom:15px ;
+    width: 75%;
+    text-align: center;
+}
+
+.third-column .green p{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.third-column .yellow
+{
+height: 50vh;
+width: 70%;
+background: #ffbe0b;
+display: flex;
+flex-direction: column;
+margin: 20px 10px;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+padding: 20px;
+
+}
+.third-column .yellow i{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 40px;
+}
+.third-column .yellow h2{
+    color: rgb(49, 47, 47);
+    font-size: 22px;
+    padding-bottom:15px ;
+    width: 85%;
+    text-align: center;
+}
+
+.third-column .yellow p{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    padding: 20px 0;
+}
+#hero-three {
+    height: 90vh;
+    padding-top: 60px;
+    display: flex;
+
+}
+#hero-three .video{
+    width: 50%;
+    height: 100%;
+    background: url(./img/left.jpg)no-repeat center center/cover;
+}
+#hero-three .words{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    background: url(./img/back-image2.png)no-repeat;
+    background-position: right top;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#hero-three .words h1
+{
+    color: #5bc0de;
+    font-size: 50px;
+    width: 37vw;
+    margin: 0 auto 40px auto;
+}
+#hero-three .words p{
+    font-size: 16px;
+    width: 74%;
+    line-height: 27px;
+    margin: 0 auto;
+    color: rgb(176, 175, 175);
+}
+#hero-three .words button{
+    padding: 12px 33px;
+    background-color: #ff214f;
+    color: white;
+    border-radius: 30px;
+    border-color: #ff214f;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+    transition: .3s ease;
+    margin: 60px 0 0 100px;
+    align-self: start;
+
+}
+#hero-four
+{
+    height: auto;
+
+}
+#hero-four .title{
+    width: 90%;
+    margin: 60px auto 0 auto;
+}
+#hero-four .title h2{
+    color: rgb(245, 24, 24);
+    font-size: 16px;
+}
+#hero-four .title h1{
+    font-size: 63px;
+    padding-top: 18px;
+    width: 100%;
+}
+#hero-four .flex-items{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 40px auto 0 auto;
+
+}
+#hero-four .flex-items .cards{
+    width: 30%;
+    border-radius: 20px 20px 0 0;
+    background: rgb(243, 240, 240);
+    height: 50%;
+    position: relative;
+    margin: 10px;
+}
+#hero-four .flex-items .cards:hover{
+    cursor: pointer;
+
+
+    
+}
+#hero-four .flex-items .cards .top1{
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    background: url(./img/main10.jpg)no-repeat center center/cover;
+}
+#hero-four .flex-items .cards .top2{
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    background: url(./img/main11.jpg)no-repeat center center/cover;
+}
+#hero-four .flex-items .cards .top3{
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    background: url(./img/main8.jpg)no-repeat center center/cover;
+}
+#hero-four .flex-items .cards .top4{
+    height: 250px;
+    border-radius: 20px 20px 0 0 ;
+    background: url(./img/blockchain.jpg)no-repeat center center/cover;
+}
+#hero-four .flex-items .cards .top5{
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    background: url(./img/robotics.jpg)no-repeat center center/cover;
+}
+#hero-four .flex-items .cards .top6{
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    background: url(./img/main4.jpg)no-repeat center center/cover;
+}
+
+#hero-four .flex-items .cards .bottom{
+
+text-align: center;
+padding: 20px;
+}
+#hero-four .flex-items .cards .bottom h4{
+ font-size: 14px;
+ color: #148ab5;
+}
+#hero-four .flex-items .cards .bottom h5{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 10px;
+     color: gray;
+     padding: 5px;
+     font-weight: 100;
+}
+.cards .p-rel {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+.mini-overlay{
+    height: 250px;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    background: rgba(222, 42, 42, 0.7);
+}
+
+.cards .p-rel .mini-overlay .link-icon{
+    padding: 12px;
+    background: white; 
+    font-size: 20px;
+    border-radius: 50%;
+}
+.cards:hover .mini-overlay{
+    display: flex;
+}
